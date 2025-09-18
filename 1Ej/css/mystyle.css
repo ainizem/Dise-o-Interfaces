@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2rem auto;
+}
+
+.primeraFila{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen{
+    width: 40rem;
+}
+
+.imagen img{
+    width: 100%;
+}
+.redes{
+    display: flex;
+  align-items: center;
+}
+
+.botones{
+    display: flex;
+
+    justify-content: space-around;
+}
+.segundaFila{
+    background-color: #FF6600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.terceraFila{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: black solid 1px;
+    
+}
+.terceraFila ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.terceraFila ul li{
+    font-weight: 100;
+    color: rgb(107, 107, 107);
+}
+
+.libros{
+    height: 20rem;
+}
+
+.fantastico{
+    height: 20rem;
+}
+
+.escritorio{
+    height: 20rem;
+}
+.divEscritorio{
+    display: flex;
+    flex-direction: column;
+}
+
+.publi{
+    width: 100%;
+}
+.accidente{
+    height: 10rem;
+}
+.flexAccidente{
+    display: flex;
+    flex-direction: column;
+}
+.uno{
+display: flex;
+justify-content: center;
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.tres{
+    display: flex;
+}
+
+.pie{
+    background-color: rgb(71, 70, 70);
+}
+
+header  .user-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  header  .user-actions .btn {
+    background: #02cec0;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+
+@media (max-width:1200){
+
+}
